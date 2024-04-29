@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1 class="main_heading">LeaderBoard</h1>
+        <form class="main_form">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Country">
+            <input type="number" placeholder="Player Score">
+            <button class="form_submit_btn" type="submit">Add Player</button>
+        </form>
+        <p class="error_message">All fields are required</p>
+        <div class="scoreboard_wrapper">
+            <div class="player_scoreboard">
+                <div>
+                    <p class="player_name">Mohd Asim</p>
+                    <p class="time_stamp">Jan 2023: 09:23:23</p>
+                </div>
+                <p class="player_country">India</p>
+                <p class="player_score">85</p>
+                <div class="btn_container">
+                    <button>&#x1f5d1</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+            <div class="player_scoreboard">
+                <div>
+                    <p class="player_name">Mohan Laal</p>
+                    <p class="time_stamp">Jan 2022: 19:23:23</p>
+                </div>
+                <p class="player_country">Sri Lanka</p>
+                <p class="player_score">75</p>
+                <div class="btn_container">
+                    <button>&#x1f5d1</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+            <div class="player_scoreboard">
+                <div>
+                    <p class="player_name">Abdul Bari</p>
+                    <p class="time_stamp">Jul 2021: 13:33:33</p>
+                </div>
+                <p class="player_country">UAE</p>
+                <p class="player_score">65</p>
+                <div class="btn_container">
+                    <button>&#x1f5d1</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
